@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220119140900">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__wrapper">
+				<a data-goto="#hero" href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+
+				<div class="header__container">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link" data-goto="#events">Мероприятия</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link" data-goto="#schedule">Расписание</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link" data-goto="#about">О компании</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+
+				<div class="header__links">
+					<a class="header__social _icon-instagram" href="#"></a>
+					<a class="header__social _icon-facebook" href="#"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero" id="hero">
+				<div class="hero__container">
+					<div class="hero__inner">
+						<div class="hero__info">
+							<div class="hero__content">
+								<h1 class="hero__main-title">онлайн тренировки любой сложности</h1>
+								<h3 class="hero__subtitle">
+									> 15 тренировок
+								</h3>
+								<div class="hero__wrapper">
+									<div class="hero__box">
+										<div class="hero__text">
+											<p>
+												в области спортивной физиологии и нутрициологии
+											</p>
+										</div>
+										<div class="hero__button">
+											<a class="_btn" href="" data-popup="#popup">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="hero__image">
+							<picture><source srcset="img/hero/hero-bg.webp"type="image/webp"><img src="img/hero/hero-bg.png" alt="girl"></picture>
+						</div>
+					</div>
+					<div class="hero__scroll">
+						<button class="_icon-arrow-down" data-goto="#events"></button>
+					</div>
+				</div>
+
+			</section>
+			<section class="events" id="events">
+				<div class="events__container">
+					<h2 class="events__title">Ближайшие события</h2>
+
+					<div class="events__inner">
+						<div class="events__item">
+							<div class="item-events item-events_first">
+								<div class="item-events__content">
+									<span class="item-events__date">29.06 - 4.07</span>
+									<h5 class="item-events__name">Марафон выносливости</h5>
+									<div class="item-events__hidden-button">
+										<button class="_btn" type="button" data-popup="#popup">Учавствовать</button>
+									</div>
+								</div>
+								<div class="item-events__bottom">
+									<span class="item-events__btn">марафон</span>
+									<button class="item-events__plus" type="button" data-popup="#popup"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="events__item">
+							<div class="item-events item-events_second">
+								<div class="item-events__content">
+									<span class="item-events__date">9.07</span>
+									<h5 class="item-events__name">Как стать тренером?</h5>
+									<div class="item-events__hidden-button">
+										<button class="_btn" type="button" data-popup="#popup">Учавствовать</button>
+									</div>
+								</div>
+								<div class="item-events__bottom">
+									<span class="item-events__btn">вебинар</span>
+									<button class="item-events__plus" type="button" data-popup="#popup"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="events__item">
+							<div class="item-events item-events_third">
+								<div class="item-events__content">
+									<span class="item-events__date">15.07</span>
+									<h5 class="item-events__name">Йога, как стиль жизни</h5>
+									<div class="item-events__hidden-button">
+										<button class="_btn" type="button" data-popup="#popup">Учавствовать</button>
+									</div>
+								</div>
+								<div class="item-events__bottom">
+									<span class="item-events__btn">вебинар</span>
+									<button class="item-events__plus" type="button" data-popup="#popup"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="schedule" id="schedule">
+				<div class="schedule__container">
+					<div class="schedue__top top-schedule">
+						<h2 class="top-schedule__title">Расписание тренировок</h2>
+						<span class="top-schedule__date">22 - 28 июня</span>
+					</div>
+
+					<div class="schedule__grid grid-schedule">
+						<div class="grid-schedule__item grid-schedule__item_one">
+							<span class="grid-schedule__date">22 июня, 10:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/01.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">Функциональный тренинг</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+
+						<div class="grid-schedule__item grid-schedule__item_two grid-schedule__item_todays-day">
+							<span class="grid-schedule__date">23 июня, 10:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/02.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">Силовой микс</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+
+						<div class="grid-schedule__item grid-schedule__item_three">
+							<span class="grid-schedule__date">24 июня, 10:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/03.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">Body sculpt</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+
+						<div class="grid-schedule__item grid-schedule__item_four">
+							<span class="grid-schedule__date">25 июня, 11:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/04.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">Дыхательные практики</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+
+						<div class="grid-schedule__item grid-schedule__item_five">
+							<span class="grid-schedule__date">26 июня, 11:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/05.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">L.A.B.</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+
+						<div class="grid-schedule__item grid-schedule__item_six">
+							<span class="grid-schedule__date">27 июня, 10:00</span>
+							<div class="grid-schedule__box">
+								<div class="grid-schedule__content">
+									<div class="grid-schedule__image">
+										<img src="img/schedule/06.svg" alt="">
+									</div>
+									<span class="grid-schedule__name">Комплексная разминка</span>
+								</div>
+							</div>
+							<div class="grid-schedule__text">
+								<p>Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__wrapper">
+						<div class="subscribe__content">
+							<div class="subscribe__top">
+								<h2 class="subscribe__title">Подпишитесь на рассылку</h2>
+							</div>
+							<form class="subscribe__form" action="#">
+								<div class="subscribe__item subscribe__item_first">
+									<div class="item-subscribe">
+										<input class="item-subscribe__input" type="email" required placeholder="Ваш e-mail">
+										<div class="item-subscribe__line">
+											<input class="item-subscribe__checkbox" type="checkbox" required name="checkbox" id="checkbox" checked>
+											<label class="item-subscribe__label" for="checkbox">
+												<span>Согласен с обработкой<a class="item-subscribe__link" href="">персональных данных</a></span>
+
+											</label>
+										</div>
+
+									</div>
+								</div>
+								<div class="subscribe__item subscribe__item_second">
+									<div class="item-subscribe">
+										<button class="item-subscribe__button _btn" type="submit">ПОДПИСАТЬСЯ</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about" id="about">
+				<div class="about__container">
+					<div class="about-top">
+						<div class="about-top__content">
+							<h2 class="about-top__title">О компании</h2>
+
+							<div class="about-top__text">
+								<p>
+									Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.
+								</p>
+							</div>
+
+							<div class="about-top__button" data-da=".about-bottom, 767.98, 1">
+								<button class="_btn" type="button" data-popup="#popup">Записаться</button>
+							</div>
+						</div>
+
+						<div class="about-top__image-ibg" data-da=".about-bottom, 767.98, 2">
+							<picture><source srcset="img/about/about.webp"type="image/webp"><img src="img/about/about.jpg" alt=""></picture>
+						</div>
+					</div>
+
+					<div class="about-bottom">
+						<div class="about-bottom__inner">
+							<div class="about-bottom__item item-about">
+								<h6 class="item-about__name">Экономия времени</h6>
+								<div class="item-about__text">
+									<p>
+										Не нужно тратить время на дорогу
+									</p>
+								</div>
+							</div>
+
+							<div class="about-bottom__item item-about">
+								<h6 class="item-about__name">Индивидуальный подход</h6>
+								<div class="item-about__text">
+									<p>
+										Внимание тренера пренадлежит только вам
+									</p>
+								</div>
+							</div>
+
+							<div class="about-bottom__item item-about">
+								<h6 class="item-about__name">Экономия денег</h6>
+								<div class="item-about__text">
+									<p>
+										Средняя цена одной тренировки - 700₽
+									</p>
+								</div>
+							</div>
+
+							<div class="about-bottom__item item-about">
+								<h6 class="item-about__name">Опытный персонал</h6>
+								<div class="item-about__text">
+									<p>
+										Стаж работы у наших тренеров от 5 лет
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer-top">
+					<div class="footer-top__box footer-top__box_first">
+						<a class="footer-top__logo" data-goto="#hero" href="">
+							<img src="img/logo.svg" alt="">
+						</a>
+
+						<nav class="footer-top__menu">
+							<ul class="footer-top__list">
+								<li class="footer-top__item">
+									<a href="" class="footer-top__link" data-goto="#events">Мероприятия</a>
+								</li>
+								<li class="footer-top__item">
+									<a href="" class="footer-top__link" data-goto="#schedule">Расписание</a>
+								</li>
+								<li class="footer-top__item">
+									<a href="" class="footer-top__link" data-goto="#about">О компании</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="footer-top__box footer-top__box_last">
+						<div class="footer-top__feedback">
+							<a class="footer-top__email" href="mailto:info@freefit.com">info@freefit.com</a>
+						</div>
+
+						<div class="footer-top__links">
+							<a class="footer-top__social _icon-instagram" href="#"></a>
+							<a class="footer-top__social _icon-facebook" href="#"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<ul class="footer-bottom__list">
+						<li class="footer-bottom__item">
+							<span class="footer-bottom__text">
+								© 2022, Все права защищены
+							</span>
+						</li>
+
+						<li class="footer-bottom__item">
+							<span class="footer-bottom__text">Сделано в рамках курса учебной платформы</span><a class="footer-bottom__link" href="">Frontend Blok</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__cross">
+					<button data-close type="button" class="popup__close"></button>
+				</div>
+				<div class="popup__wrapper">
+					<div class="popup-top">
+						<div class="popup-top__wrapper">
+							<h2 class="popup-top__name">
+								Заявка на участие «Марафон выносливости»
+							</h2>
+							<div class="popup-top__text">
+								<p>
+									Заполните все поля, и мы пришлем информацию в ближайшее время
+								</p>
+							</div>
+						</div>
+
+					</div>
+					<form class="popup__form form-popup" action="#">
+						<input class="form-popup__input form-popup__input_email" type="email" placeholder="Ваш e-mail" required>
+						<input class="form-popup__input form-popup__input_tel" type="tel" placeholder="Ваш номер телефона" required>
+						<button class="_btn" type="button">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220119140900"></script>
+</body>
+
+</html>
